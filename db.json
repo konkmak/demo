@@ -1,14 +1,36 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "title": "Quiz about Foo",
+  "questions": [
+    {
+      "text": "Is true true?",
+      "type": "tf",
+      "answer": "t"
+    },
+    {
+      "text": "Is false true?",
+      "type": "tf",
+      "answer": "f"
+    },
+    {
+      "text": "What is the best beer?",
+      "type": "mc",
+      "answers": [
+        "Coors",
+        "Miller",
+        "Bud",
+        "Anchor Steam"
+      ],
+      "answer": "Anchor Steam"
+    },
+    {
+      "text": "What is the best cookie?",
+      "type": "mc",
+      "answers": [
+        "Chocolate Chip",
+        "Sugar",
+        "Beer"
+      ],
+      "answer": "Sugar"
+    }
+  ]
 }
