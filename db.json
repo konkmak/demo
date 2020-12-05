@@ -1,5 +1,7 @@
 {
+  "description" : {
   "title": "Quiz about Foo",
+  "date": "05122020"},  
   "questions": [
     {
       "text": "Is true true?",
